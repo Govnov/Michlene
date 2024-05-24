@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #eaeaea;
+            color: #333;
+            position: relative;
+            overflow: hidden;
+        }
+        nav {
+            width: 100%;
+            background: #ff6347;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            background: #ffffff;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        header {
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-family: 'Helvetica', sans-serif;
+            font-size: 2.5em;
+            margin: 0;
+            color: #ff6347;
+        }
+        .bio, .skills {
+            text-align: left;
+            margin-bottom: 30px;
+        }
+        .bio h2, .skills h2 {
+            color: #ff6347;
+            font-size: 1.8em;
+            border-bottom: 2px solid #ff6347;
+            padding-bottom: 5px;
+        }
+        .bio p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            background: #ff6347;
+            color: #fff;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: transform 0.3s;
+        }
+        .skills li:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #ff6347;
+            color: #fff;
+            border-radius: 5px;
+        }
+        .linkedin a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .linkedin a:hover {
+            text-decoration: underline;
+        }
+        .dumpling {
+            position: absolute;
+            background: #ff6347;
+            color: #fff;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1em;
+        }
+        .dumpling.left {
+            top: 20px;
+            left: 20px;
+        }
+        .dumpling.right {
+            top: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>Your Name</h1>
+        </header>
+        <section id="about" class="bio">
+            <h2>About Me</h2>
+            <p>Hello! I'm a marketing specialist with a diverse background in target marketing and coordination. I started my career as a Target Marketing Specialist from 2020 to 2021, where I honed my skills in understanding consumer behavior and developing targeted marketing strategies. Since 2022, I have been working as a Marketing Coordinator in Dubai, overseeing various marketing campaigns and ensuring they align with our strategic goals.</p>
+        </section>
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Market Analysis</li>
+                <li>Campaign Management</li>
+                <li>Consumer Behavior Analysis</li>
+                <li>Digital Marketing</li>
+                <li>Project Coordination</li>
+                <li>Strategic Planning</li>
+            </ul>
+        </section>
+        <footer id="contact">
+            <div class="linkedin">
+                <p>Connect with me on <a href="https://www.linkedin.com/in/your-linkedin-profile">LinkedIn</a></p>
+            </div>
+        </footer>
+    </div>
+    <div class="dumpling left">POMARK</div>
+    <div class="dumpling right">POMARK</div>
+</body>
+</html>
+
